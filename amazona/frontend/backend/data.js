@@ -1,0 +1,55 @@
+
+
+const data = {
+    product:[
+        {
+            name: 'nike slim shirt',
+            slug:'nike-slim-shirt',
+            category:'shirts',
+            image:'/images/p1.jpg', 
+            price: 120,
+            countInStock: 10,
+            brand:'nike',
+            rating:4.5,
+            numReviews:10,
+            description:'high quality shirt',
+        }, 
+        {
+            name: 'Addidas fit  shirt',
+            slug:'Addidas-fit-shirt',
+            category:'shirts',
+            image:'/images/p2.jpg',
+            price: 250,
+            countInStock: 20,
+            brand:'Addidas',
+            rating:4.0,
+            numReviews:10,
+            description:'high quality product',
+        },
+        {
+            name: 'nike slim paint',
+            slug:'nike-slim-paint',
+            category:'paints',
+            image:'/images/p3.jpg',
+            price: 25,
+            countInStock: 15,
+            brand:'nike',
+            rating: 4.5,
+            numReviews: 14,
+            description:'high quality product',
+        },
+        {
+            name: 'addidas fit paint',
+            slug:'addidas-fit-paint',
+            category:'paints',
+            image:'/images/p4.jpg',
+            price: 65,
+            countInStock: 5,
+            brand:'puma',
+            rating: 4.5,
+            numReviews: 10,
+            description:'high quality product',
+        },
+    ],
+}
+export default data;
