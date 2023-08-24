@@ -1,10 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import { createApp } from 'vue'; // Vite uses Vue internally for development
+import { StrictMode } from 'react'; // React's StrictMode
+import App from './App.jsx';
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const app = createApp(<StrictMode><App /></StrictMode>);
+
+app.mount('#app');
